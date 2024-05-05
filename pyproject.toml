@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spamr"
+version = "0.0.1"
+description = "Mixture regression models for NumPyro."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Ami Falk", email="aaf2pz@virginia.edu"},
+    {name = "Per B. Sederberg", email="pbs5u@virginia.edu"}
+]
+keywords = ["mixture-models", "modeling-tools", "jax", "numpyro"]
+urls = {repository = "https://github.com/compmem/spamr"}
+dependencies = ["numpyro"] # XXX update this dependency at next numpyro prelease
