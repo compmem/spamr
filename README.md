@@ -1,6 +1,6 @@
 <h1 align='center'>spamr</h1>
 
-XXX (register on Zenodo) (and make a prelease)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11116468.svg)](https://doi.org/10.5281/zenodo.11116468)
 
 This repository contains the Sparse Bayesian Mixture Regression model (`spamr.py`) and a modular interface for experimenting with custom mixture regressions (`mixture_regression.py`). 
 
@@ -33,5 +33,18 @@ pip install git+https://github.com/pyro-ppl/numpyro
 pip install git+https://github.com/compmem/spamr
 ```
 
-If you found this helpful for your research, please cite us with XXX
+### Citation
 
+```bibtex
+@software{falk_2024_11116468,
+  author       = {Falk, Ami and
+                  Sederberg, Per B.},
+  title        = {compmem/spamr: spamr 0.1.0 - Initial Prerelease},
+  month        = may,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {0.1.0},
+  doi          = {10.5281/zenodo.11116468},
+  url          = {https://doi.org/10.5281/zenodo.11116468}
+}
+```
