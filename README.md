@@ -1,4 +1,4 @@
-<h1 align='center'>spamr</h1>
+# spamr
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11116468.svg)](https://doi.org/10.5281/zenodo.11116468)
 
