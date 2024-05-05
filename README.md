@@ -8,6 +8,7 @@ Cluster assignments for each (x, y) pair are marginalized out during inference w
 
 ###  Fitting a spamr model
 ```python
+import jax
 from numpyro.infer import MCMC, NUTS
 from spamr import make_spamr
 
@@ -16,7 +17,7 @@ Y = ...
 
 spamr = make_spamr(X, Y)
 mcmc = MCMC(NUTS(spamr), num_warmup=1_000, num_samples=1_000)
-mcmc.run(mcmc_key, X, Y=Y)
+mcmc.run(jax.random.PRNGKey(0), X, Y=Y)
 mcmc.get_samples()
 ```
 
