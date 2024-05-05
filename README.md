@@ -14,6 +14,7 @@ from spamr import make_spamr
 X = ...
 Y = ...
 
+spamr = make_spamr(X, Y)
 mcmc = MCMC(NUTS(spamr), num_warmup=1_000, num_samples=1_000)
 mcmc.run(mcmc_key, X, Y=Y)
 mcmc.get_samples()
