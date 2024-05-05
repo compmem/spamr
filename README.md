@@ -23,9 +23,13 @@ For more info, see the demo notebook.
 
 ### Installation
 
-You can install the latest development version of spamr directly from GitHub using the following command:
+This repository depends on the latest development version of NumPyro.
+
+You can install that and the latest version of spamr directly from GitHub using the following commands:
 
 ```bash
+pip install git+https://github.com/pyro-ppl/numpyro
+
 pip install git+https://github.com/compmem/spamr
 ```
 
