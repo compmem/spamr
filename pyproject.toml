@@ -15,4 +15,4 @@ authors = [
 ]
 keywords = ["mixture-models", "modeling-tools", "jax", "numpyro"]
 urls = {repository = "https://github.com/compmem/spamr"}
-dependencies = ["numpyro"] # XXX update this dependency at next numpyro prelease
+dependencies = ["numpyro >= 0.15"]
